@@ -1,7 +1,13 @@
-import React from 'react';
+import TodoListContainer from './containers/TodoListContainer';
+import TodoFormContainer from './containers/TodoFormContainer';
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <TodoListContainer />
+      <TodoFormContainer />
+    </div>
+  );
 };
 
 export default App;
